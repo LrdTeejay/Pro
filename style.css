@@ -6,12 +6,12 @@
     /* font-size: 16px; */
 }
 body{
-    margin: 1%;
+    margin: 0;
 }
 header{
     display: flex;
     justify-content: space-between;
-    max-width: 95%;
+    max-width: 100%;
     margin: auto;
     font-size: 1rem;
     margin: 1.5em;
@@ -129,10 +129,10 @@ figure .speciality{
 .round-img{
     border: 1px solid black;
     border-radius: 50%;
-    height: 50px;
+    height: 100px;
     width: 100px;
     float: right;
-    margin: 0 .5em;
+    margin: 0 .8em;
 }
 .work button{
     width: max-content;
@@ -226,7 +226,7 @@ input::placeholder{
 }
 #foot img{
     width: 100%;
-    height: 35vh;
+    height: 25vh;
     background-size: cover;
 }
 @media (max-width:800px){
